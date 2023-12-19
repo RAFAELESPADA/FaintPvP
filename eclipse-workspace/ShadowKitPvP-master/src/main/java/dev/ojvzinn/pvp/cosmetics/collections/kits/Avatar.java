@@ -116,6 +116,8 @@ public class Avatar extends Kit {
                 e.setCancelled(true);
             } else if (e.getItemDrop().getItemStack().getType() == Material.REDSTONE_BLOCK && item.getItemMeta() != null && item.getItemMeta().hasDisplayName() && item.getItemMeta().getDisplayName().equals("§6Avatar §7(Clique direito)")) {
                 e.setCancelled(true);
+            } else if (e.getItemDrop().getItemStack().getType() == Material.BEACON && item.getItemMeta() != null && item.getItemMeta().hasDisplayName() && item.getItemMeta().getDisplayName().equals("§6Avatar §7(Clique direito)")) {
+                e.setCancelled(true);
             } else if (e.getItemDrop().getItemStack().getType() == Material.GRASS && item.getItemMeta() != null && item.getItemMeta().hasDisplayName() && item.getItemMeta().getDisplayName().equals("§6Avatar §7(Clique direito)")) {
                 e.setCancelled(true);
             } else if (e.getItemDrop().getItemStack().getType() == Material.WOOL && item.getItemMeta() != null && item.getItemMeta().hasDisplayName() && item.getItemMeta().getDisplayName().equals("§6Avatar §7(Clique direito)")) {
